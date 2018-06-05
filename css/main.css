@@ -34,7 +34,8 @@ nav .navbar-brand {
   position: relative;
   overflow: hidden; }
   #product-banner #product-image {
-    width: 350px; }
+    max-width: 350px;
+    object-fit: contain; }
   @media (max-width: 767px) {
     #product-banner button {
       width: 100%; } }
