@@ -4,6 +4,9 @@ body {
   body h1 {
     font-family: "Lato", sans-serif; }
 
+nav .navbar-toggler:focus {
+  outline: none; }
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1340px; } }
@@ -54,6 +57,9 @@ body {
   background: linear-gradient(to right, #dc6332, #dd4533); }
   #grid-section #grid-app .btn {
     background: #111; }
+
+#grid-section #grid-offer {
+  background: linear-gradient(to right, #65BBDD, #63D9C1); }
 
 #footer a {
   color: #555; }
