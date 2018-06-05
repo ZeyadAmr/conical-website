@@ -30,6 +30,7 @@ nav .navbar-brand {
     max-width: 1340px; } }
 
 #product-banner {
+  min-height: 100%;
   position: relative;
   overflow: hidden; }
   #product-banner #product-image {
