@@ -13,6 +13,9 @@ body {
 nav .navbar-toggler:focus {
   outline: none; }
 
+nav .navbar-brand {
+  width: 100px; }
+
 @media (max-width: 992px) {
   #navbar-content.h-0 {
     max-height: 0px; } }
