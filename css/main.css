@@ -67,18 +67,32 @@ nav .navbar-brand {
   top: 10%; }
 
 #grid-section .box {
+  position: relative;
   background: orange;
   width: 100%;
   height: 500px;
   margin-bottom: 30px;
+  border-radius: 0.7em;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   #grid-section .box:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transform: scale(1.01); }
+  #grid-section .box img {
+    cursor: pointer;
+    border-radius: inherit; }
 
 #grid-section .smol {
   height: 250px;
   background: dodgerblue; }
+
+#grid-section .box-text {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit; }
 
 #grid-section #grid-app {
   background: linear-gradient(to right, #dc6332, #dd4533); }
